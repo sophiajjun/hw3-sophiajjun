@@ -32,9 +32,14 @@ class CouponDispenser:
         Args:
             coupon_cards (list[str]): list of possible coupons users can receive.
         """
+<<<<<<< HEAD
         self.coupon_cards = coupon_cards
         self.customer_roster = []
         self.issued_indices = []
+=======
+        # TODO: Implement per instructions
+        pass
+>>>>>>> 5b5a85debdda225bdb8388b358380602f5948cfb
 
     def __str__(self):
         """
@@ -44,9 +49,14 @@ class CouponDispenser:
         Returns:
             str
         """
+<<<<<<< HEAD
         if len(self.coupon_cards) == 0:
             return ""
         return "|".join(self.coupon_cards)
+=======
+        # TODO: Implement per instructions
+        pass
+>>>>>>> 5b5a85debdda225bdb8388b358380602f5948cfb
 
     def issue_coupon(self, name):
         """
@@ -62,6 +72,7 @@ class CouponDispenser:
         Returns:
             str: message as described above
         """
+<<<<<<< HEAD
         # no coupons
         if len(self.coupon_cards) == 0:
             return "The box is empty."
@@ -77,6 +88,10 @@ class CouponDispenser:
         self.customer_roster.append(name)
         self.issued_indices.append(random_index)
         return self.coupon_cards[random_index]
+=======
+        # TODO: Implement per instructions
+        pass
+>>>>>>> 5b5a85debdda225bdb8388b358380602f5948cfb
 
     def distribute_session(self):
         """
@@ -111,10 +126,15 @@ class CouponDispenser:
         Returns:
             None
         """
+<<<<<<< HEAD
         
         round_num = 1
         while True:
             user_input = input(f"Round {round_num} - Enter a name (or a )")
+=======
+        # TODO: Implement per instructions
+        pass
+>>>>>>> 5b5a85debdda225bdb8388b358380602f5948cfb
 
 
 def main():
